@@ -1,0 +1,5 @@
+protocol direct direct_ic {
+	interface "ens18";
+	ipv4;
+	ipv6;
+}

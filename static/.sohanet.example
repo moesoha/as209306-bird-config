@@ -1,0 +1,4 @@
+protocol static static_sohanet6 {
+	ipv6;
+	route 2406:840:feed:1::/64 reject;
+}

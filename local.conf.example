@@ -1,0 +1,8 @@
+router id 45.9.11.67;
+
+define LOCAL_AS = 209306;
+define LOCAL_ROUTER_NUM = 1;
+define LOCAL_CODE_AREA = 1;
+define LOCAL_CODE_COUNTRY = 156;
+
+define IBGP_SOURCE_ADDRESS = 2406:840:feed:1::1;
