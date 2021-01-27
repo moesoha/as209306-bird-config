@@ -1,10 +1,10 @@
 protocol ospf v3 ospf_net6 {
 	area 0 {
 		interface "snh-piano" { type pointopoint; cost 50; };
-	}
+	};
 
 	ipv6 {
 		import filter ospf_import;
 		export filter ospf_export;
-	}
+	};
 }
