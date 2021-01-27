@@ -1,6 +1,7 @@
+include "ptp.cost";
 protocol ospf v3 ospf_net6 {
 	area 0 {
-		interface "snh-piano" { type pointopoint; cost 50; };
+		interface "snh-piano" { type pointopoint; cost PTP_IF_COST__SNH_PIANO; };
 	};
 
 	ipv6 {
