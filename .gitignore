@@ -1,3 +1,4 @@
 local.conf
 ./**/*.conf
+!./filter/*.conf
 !./**/_*
