@@ -1,0 +1,1 @@
+interface "snh-piano" { type pointopoint; cost PTP_IF_COST__SNH_PIANO; };
