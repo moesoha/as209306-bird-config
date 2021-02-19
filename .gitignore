@@ -1,4 +1,5 @@
 local.conf
-./**/*.conf
-!./filter/*.conf
-!./**/_*
+{bgp,ospf,static}/*
+!ospf/sohanet.conf
+!**/_*
+!**/.*

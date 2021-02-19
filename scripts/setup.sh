@@ -1,3 +1,4 @@
 #!/bin/sh
 
-echo 'include "sohanet/bird.conf";' > $(dirname "$0")/../../bird.conf
+cd $(dirname "$0")/../
+echo 'include "'$(basename $(pwd))'/bird.conf";' > ../bird.conf

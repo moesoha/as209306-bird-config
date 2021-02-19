@@ -1,4 +1,4 @@
-router id 44.159.73.240;
+router id 44.159.73.250;
 
 define LOCAL_AS = 209306;
 define LOCAL_ROUTER_NUM = 1;
