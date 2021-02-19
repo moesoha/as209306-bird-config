@@ -1,4 +1,5 @@
 #!/bin/sh
 
-cd /etc/bird/sohanet/
+cd "$(dirname "$0")"
+cd ..
 git pull && birdc configure

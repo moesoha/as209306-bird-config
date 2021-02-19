@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo 'include "sohanet/bird.conf";' > ./bird.conf
+echo 'include "sohanet/bird.conf";' > $(dirname "$0")/../../bird.conf

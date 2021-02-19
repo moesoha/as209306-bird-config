@@ -1,4 +1,4 @@
 #!/bin/sh
 
-cd /etc/bird/sohanet/
+cd "$(dirname "$0")"/../
 ./scripts/generate-ptp-cost.sh > ./ospf/ptp.cost
