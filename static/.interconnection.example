@@ -1,5 +1,3 @@
-protocol direct direct_ic {
+protocol direct direct_ic from tpl_direct_ic {
 	interface "ens18";
-	ipv4;
-	ipv6;
 }
