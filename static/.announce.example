@@ -1,0 +1,8 @@
+protocol static {
+	ipv6 { import filter {
+		bgp_add_local_communities();
+		bgp_large_community.add(BGPCOMM_FL_IS_SOHANET);
+		accept;
+	}; };
+	route 2a0e:aa06:40e::/48 reject;
+}
